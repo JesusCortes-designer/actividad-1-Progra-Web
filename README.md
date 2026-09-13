@@ -6,7 +6,7 @@ Ejercicio 2 – Párrafos y Formato Básico
 Práctica de etiquetas de texto: <p> para párrafos, <strong> para negrita semántica, <em> para énfasis y <br> para saltos de línea.
 
 Ejercicio 3 – Enlaces Simples
-Creación de hipervínculos con <a href="">, incluyendo enlaces externos que abren en pestaña nueva (target="_blank") y enlaces internos entre ejercicios (target="_self").
+Creación de hipervínculos con , incluyendo enlaces externos que abren en pestaña nueva  y enlaces internos entre ejercicios 
 
 Ejercicio 4 – Imágenes Básicas
 Inserción de imágenes con <img>, usando los atributos src, alt (texto alternativo para accesibilidad) y width para controlar el tamaño.
