@@ -15,7 +15,7 @@ Ejercicio 5 – Combinando Texto y Enlaces
 Integración de los elementos anteriores: imágenes dentro de párrafos y enlaces con URL absoluta, simulando una mini página de blog personal.
 
 Ejercicio 6 – Secciones Semánticas Básicas
-Uso de etiquetas semánticas de HTML5 (<header>, <section>, <footer>) para estructurar el contenido de una página en cabecera, contenido principal y pie de página.
+Uso de etiquetas semánticas de HTML5 "(<header>, <section>, <footer>)" para estructurar el contenido de una página en cabecera, contenido principal y pie de página.
 
 Ejercicio 7 – Listas Anidadas + Enlaces
 Página de una receta de cocina que utiliza listas desordenadas "(<ul>)" y ordenadas "(<ol>)", incluyendo una lista anidada dentro de otra para mostrar sub-ingredientes.
