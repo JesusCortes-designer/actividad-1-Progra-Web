@@ -1,5 +1,4 @@
-const manejarTareas = (() => {
-    let tareas = [];
+const manejarTareas = (() => {let tareas = [];
 
     const guardadas = localStorage.getItem("tareas");
     if (guardadas) {
