@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar si puede votar</title>
+    <link rel="stylesheet" href="css/formato.css">
+</head>
+<body>
+    <h1>Verificacion si se puede votar
+    </h1>
+    <div class="contenedor-formulario">
+        <form class="formulario">
+            <!-- Pedir al usuario que ingrese los datos -->
+            <div class="pregunta">
+                <label for="edad">Introdusca su edad</label>
+                <input type="text" id="edad" oninput="this.value = this.value.replace(/[^0-9.-]/g, '')" placeholder="Ej: 20" required>
+            </div>
+
+            <div class="pregunta">
+                <label for="mensaje">¿Puedes votar?</label>
+                <input id="mensaje" placeholder="Aquí te diremos si puedes votar o no" readonly>
+            </div>
+            <!-- Botón -->
+            <button onclick="calcular()" type="button">Calcular</button>
+        </form>
+    </div>
+
+    <p><a href="index.html">Regresar al index</a></p>
+
+    <script src="js/ejercicio13.js"></script>
+</body>
+</html>

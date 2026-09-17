@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/formato.css">
+</head>
+<body>
+<form class="formulario">
+            <!-- Pedir al usuario que ingrese los datos -->
+             <div class="pregunta">
+                <label>Ingrese el primer número</label>
+                <input type="text" id="numero1" required >
+            </div>
+
+            <div class="pregunta">
+                <label>Ingrese el segundo número</label>
+                <input type="text" id="numero2" required >
+            </div>
+
+            <div class="pregunta">
+                <label>Resultados</label>
+                <input id="resultado" placeholder="Resultado" readonly>
+            </div>
+            <!-- Botón -->
+            <button onclick="calcularOperacion('sumar')" type="button">Sumar Números</button>
+            <button onclick="calcularOperacion('restar')" type="button">Restar Números</button>
+            <button onclick="calcularOperacion('multiplicar')" type="button">Multiplicar Números</button>
+            <button onclick="calcularOperacion('dividir')" type="button">Dividir Números</button>
+
+
+        </form>
+            <script src="js/ejercicio16.js"></script>
+
+</body>
+</html>

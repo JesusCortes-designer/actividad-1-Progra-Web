@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora con arreglos</title>
+    <link rel="stylesheet" href="css/formato.css">
+</head>
+<body>
+    <h1>Calculadora de Máximo, minimo y promedio mediante un arreglos
+    </h1>
+    <div class="contenedor-formulario">
+        <form class="formulario">
+            <!-- Pedir al usuario que ingrese los datos -->
+            <div class="pregunta">
+                <label>Ingrese los numeros separados por comas</label>
+                <input type="text" id="numeros" oninput="this.value = this.value.replace(/[^0-9,-]/g, '')" placeholder="Ej: 20" required>
+            </div>
+
+            <div class="pregunta">
+                <label>Resultados</label>
+                <input id="numeroMayor" placeholder="Numero mayor" readonly>
+                <input id="numeroMenor" placeholder="Numero menor"  readonly>
+                <input id="promedio" placeholder="Promedio"  readonly>
+            </div>
+            <!-- Botón -->
+            <button onclick="calcular()" type="button">Calcular</button>
+        </form>
+    </div>
+
+    <p><a href="index.html">Regresar al index</a></p>
+
+    <script src="js/ejercicio14.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de kilometros a millas</title>
+    <link rel="stylesheet" href="css/formato.css">
+</head>
+<body>
+    <h1>Calculadora para convertir de kilometros a millast</h1>
+    <div class="contenedor-formulario">
+        <form class="formulario">
+            <!-- Pedir al usuario que ingrese los datos -->
+            <div class="pregunta">
+                <label for="kilometros">Introdusca los kilometros</label>
+                <input type="text" id="kilometros" oninput="this.value = this.value.replace(/[^0-9.-]/g, '')" placeholder="Ej: 20" required>
+            </div>
+
+            <div class="pregunta">
+                <label for="mensaje">Distancia en millas</label>
+                <input id="mensaje" placeholder="Aquí se mostraran la distancia en millas" readonly>
+            </div>
+            <!-- Botón -->
+            <button onclick="convertir()" type="button">Calcular millas</button>
+        </form>
+    </div>
+
+    <p><a href="index.html">Regresar al index</a></p>
+
+    <script src="js/ejercicio11.js"></script>
+</body>
+</html>
